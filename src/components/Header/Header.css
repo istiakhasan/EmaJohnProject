@@ -1,0 +1,35 @@
+header{
+    text-align: center;
+}
+header>img{
+    height: 40px;
+}
+nav{
+    line-height: 40px;
+    background-color: black;
+  
+
+}
+nav>li{
+    display: inline-block;
+    margin-left: 14px;
+}
+nav>li>a{
+    color: white !important;
+    text-decoration: none !important;
+    padding: 8px !important;
+    cursor: pointer;
+}
+nav>li>span{
+    color: white !important;
+    
+    cursor: pointer;
+  
+  padding: 8px !important;
+}
+nav>li>a:hover,.active{
+    background-color:rgb(47, 63, 47) !important;
+}
+nav>li>span:hover{
+    background-color:rgb(47, 63, 47) !important;
+}

@@ -1,0 +1,24 @@
+.shopcontainer{
+    margin-bottom: 20px !important;
+    border-bottom: 2px solid rgb(218, 206, 206);
+    
+    padding: 10px;
+}
+.shopitemdetails>p>a{
+    text-decoration: none ;
+    font-size: 18px;
+    font-style: italic;
+
+}
+.shopitemdetails>button,.main-button{
+    background-color: rgb(109, 129, 38);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    
+    padding: 7px;
+}
+.main-button,.shopitemdetails>button:hover{
+    background-color: rgb(139, 161, 40);
+    font-weight: 500;
+}
